@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body {
+  background-color: black;
+  color: wheat;
+}
+#title {
+  text-align:center;
+  margin-top: 100px;
+}
+#timer{
+  display: flex;
+  justify-content:space-evenly;
+  width:75%;
+  flex-flow:row;
+  margin: 100px auto;
+}
+#timer div{
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  border: 1px solid wheat;
+  border-radius:5px;
+  padding:30px 10px
+}
+
